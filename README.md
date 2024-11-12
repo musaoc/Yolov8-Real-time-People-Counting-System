@@ -15,18 +15,21 @@ Before running the code, make sure the following Python libraries are installed:
 ## Installation
 
 1. **Clone the Repository**:
-   ```bash
+   ```
    git clone https://github.com/yourusername/entry-exit-counter.git
    cd entry-exit-counter
+
 2. **Create and activate a virtual environment (optional)**:
-   ```bash
+   ```
   python -m venv env
   source env/bin/activate  # On Windows, use "env\Scripts\activate"
+
 3. **Install dependencies**:
-  ```
+   ```
   pip install sahi opencv-python imutils numpy
+
 4. **Run Program**:
-  ```
+   ```
   python entry_exit_counter.py
 
 ## Features
