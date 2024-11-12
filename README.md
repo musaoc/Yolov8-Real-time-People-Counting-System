@@ -20,17 +20,19 @@ Before running the code, make sure the following Python libraries are installed:
    cd entry-exit-counter
 
 2. **Create and activate a virtual environment (optional)**:
-   ```
+```
   python -m venv env
   source env/bin/activate  # On Windows, use "env\Scripts\activate"
+```
 
 3. **Install dependencies**:
-   ```
+```
   pip install sahi opencv-python imutils numpy
-
+```
 4. **Run Program**:
-   ```
+```
   python entry_exit_counter.py
+```
 
 ## Features
 - Real-time detection and tracking using YOLOv8 and SORT.
